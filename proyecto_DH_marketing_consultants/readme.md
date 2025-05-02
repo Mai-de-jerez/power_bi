@@ -7,6 +7,9 @@ Este proyecto consistió en el diseño y desarrollo de un dashboard de marketing
 
 ## ⚙️ Proceso técnico
 
+###  🔗 Fuente de datos y calidad
+Los datos proporcionados corresponden a una fuente de datos anonimizados que contiene información relacionada con la inversión en marketing realizada por una empresa durante un período de cuatro años. Tras la inspección, se determinó que los datos no contienen valores nulos ni vacíos, y son completamente coherentes con la descripción proporcionada en los nombres de las columnas.
+
 ### 📐 Modelado de Datos  
 Se diseñó un modelo en estrella optimizado para análisis en Power BI, compuesto por una tabla de hechos central y cinco tablas dimensionales conectadas mediante claves ID. Este modelo permite análisis eficientes, segmentaciones dinámicas y visualizaciones interactivas.
 
@@ -47,6 +50,8 @@ Conexión a diversas fuentes de datos (Excel, CSV).
 
 Durante la fase de preparación de datos en Power Query, se realizaron los siguientes pasos:
 
+- Los datos se presentaron en formato Excel, y fueron cargados y transformados en Power BI para su posterior análisis. 
+- Se renombraron las columnas originales a nombres más cortos y representativos, facilitando su manejo y comprensión.
 - Eliminación de registros duplicados y valores nulos.  
 - Unificación de formatos de fecha, moneda y texto.  
 - Normalización de columnas categóricas (campañas, canales, dispositivos).  
@@ -100,4 +105,16 @@ Estas funcionalidades permiten una exploración flexible, intuitiva y enfocada e
 - CPM (Costo por mil impresiones)  
 - CPC (Costo por clic)  
 - CPV (Costo por visualización)
+
+---
+
+## 📊 Análisis de los Datos
+
+### 1. **Eficiencia de la campaña de marketing**  
+Los datos reflejan que la campaña de marketing actual ha sido bastante efectiva, ya que ha logrado llegar a todos los tipos de audiencia de manera casi uniforme, utilizando diversas fuentes y canales de comunicación. Esta distribución equitativa en el alcance demuestra una estrategia bien implementada.
+
+### 2. **Beneficio frente al coste**  
+El análisis de los costos y beneficios de las campañas revela que el beneficio de las campañas supera consistentemente el coste en todos los años analizados. Sin embargo, se observó un pico de intensa actividad en 2024, lo que resultó en un aumento significativo en las métricas de gasto (CPC, CPM, CPV, etc.).  
+Por otro lado, el año 2022 mostró la menor actividad, lo que provocó un aumento en el gasto por clic, impresión y visualización, afectando negativamente el retorno de inversión de ese año y resultando en un beneficio menor para la empresa.
+
 
