@@ -1,1 +1,0 @@
-[clickea para ver el informe](https://app.powerbi.com/view?r=eyJrIjoiZDgwNDY3NjktMDRlYi00NGI1LWFkZGYtZDNjMTcxNTAzMjg4IiwidCI6IjExODhiYjJiLTk3NjItNDc3OC05YWYwLTJiNjE5Y2IwMDNkNSJ9)
