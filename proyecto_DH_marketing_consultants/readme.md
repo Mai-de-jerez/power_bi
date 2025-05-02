@@ -61,12 +61,23 @@ Estos pasos aseguraron un modelo limpio, robusto y confiable para el análisis p
 
 ### 🧮 Cálculos con DAX  
 - Definición de medidas personalizadas para análisis dinámico y comparativo.
+- Métricas financieras y de rendimiento como ROI, CTR, CR, CPC, CPA, CPV, CPM, entre otras.
+- Análisis comparativo temporal (`YTD`, `MoM`, `YoY`) y segmentación por campañas, fuentes y dispositivos.
+- Uso de funciones como `CALCULATE`, `FILTER`, `DIVIDE`, `RANKX`, `SELECTEDVALUE` para construir medidas robustas y dinámicas.
 
 ---
 
-### 📊 Visualización  
-- Desarrollo de un dashboard claro e interactivo enfocado en KPIs de marketing.  
-- Incorporación de filtros por fecha, canal y campaña para segmentaciones dinámicas.
+### 🧭 Interactividad y diseño del reporte
+
+Se incorporaron elementos de navegación e interactividad avanzados para mejorar la experiencia de usuario:
+
+- **Bookmarks (marcadores):** vistas guardadas para mostrar datos del último mes de forma rápida.  
+- **Páginas dedicadas:** secciones específicas para análisis del último año, con filtros aplicados a nivel de página.  
+- **Botones de navegación:** enlaces entre páginas que facilitan la exploración del reporte.  
+- **Segmentadores sincronizados:** cuatro slicers sincronizados entre páginas para mantener el contexto del análisis.  
+- **Visualizaciones variadas:** uso de tarjetas, gráficos de barras, líneas, anillos, dispersión, mapas y otros tipos según el objetivo del análisis.
+
+Estas funcionalidades permiten una exploración flexible, intuitiva y enfocada en los principales indicadores de rendimiento.
 
 ---
 
@@ -89,3 +100,4 @@ Estos pasos aseguraron un modelo limpio, robusto y confiable para el análisis p
 - CPM (Costo por mil impresiones)  
 - CPC (Costo por clic)  
 - CPV (Costo por visualización)
+
